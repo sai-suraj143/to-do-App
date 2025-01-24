@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-app">
+        <h2>To DO App <img src="/images/icon.png" alt="" width="30" /></h2>
+        <div class="row">
+          <input type="text" id="task" placeholder="Enter your task" /><button
+            id="button"
+            onclick="addtask()"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+      <ul id="list-container">
+        <!--<li class="checked">upload</li>
+        <li>upload</li>
+        <li>on github</li>-->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

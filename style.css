@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(90deg, #06070e, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  background-color: #fff;
+  margin-top: 90px;
+  border-radius: 25px;
+  text-align: center;
+}
+.row {
+  position: relative;
+}
+#task {
+  height: 26px;
+  width: 60%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #d3d3d3;
+  border: none;
+}
+#button {
+  width: 40px;
+  height: 50px;
+  margin-left: -10px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  color: #fff;
+}
+#button:active {
+  transform: scaleY(0.9);
+}
+ul li {
+  margin-left: 55px;
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 35%;
+  top: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+span:hover {
+  background: #d3d3d3;
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .container {
+    width: 90%;
+    margin-top: 50px;
+  }
+  #task {
+    width: 70%;
+  }
+  #button {
+    width: 50px;
+    height: 40px;
+  }
+  ul li {
+    margin-left: 20px;
+  }
+  span {
+    right: 20%;
+  }
+}
