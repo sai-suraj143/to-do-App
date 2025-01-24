@@ -33,6 +33,7 @@ body {
   border-bottom-right-radius: 10px;
   background-color: black;
   color: #fff;
+  cursor: pointer;
 }
 #button:active {
   transform: scaleY(0.9);
@@ -54,6 +55,7 @@ span {
   height: 35px;
   width: 35px;
   border-radius: 50%;
+  cursor: pointer;
 }
 span:hover {
   background: #d3d3d3;
